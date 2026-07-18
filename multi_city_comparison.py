@@ -76,7 +76,7 @@ for city_name, lat, lon in cities:
     result = run_models_for_city(city_name, lat, lon)
     all_results.append(result)
 
-# Save results so you can build your chart from this later
+
 results_df = pd.DataFrame(all_results)
 results_df.to_csv("multi_city_results.csv", index=False)
 print("\nSaved all results to multi_city_results.csv")
