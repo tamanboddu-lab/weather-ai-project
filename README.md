@@ -23,4 +23,5 @@ pip install pandas scikit-learn codecarbon
 ```bash
 python main.py
 ```
+or replace main.py with your own Python file
 
